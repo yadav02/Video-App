@@ -1,4 +1,4 @@
-var apiEndpoint = 'http://5dfb77ac0301690014b8fbce.mockapi.io/PlayList';
+var apiEndpoint = 'https://5dfb77ac0301690014b8fbce.mockapi.io/PlayList';
 
 function createVideoCard(cardObj) {
   var videoCard = document.createElement("div");
