@@ -46,5 +46,12 @@ if(isUserLoggedIn === 'true'){
   createVideoMenu.style.display = 'none' 
 }
 
+btnLogout.onclick = function() {
+  alert("You are logged out");
+  btnLogin.style.display = 'inline';
+  btnLogout.style.display = 'none';
+  createVideoMenu.style.display = 'none'; 
+}
+
 
 
